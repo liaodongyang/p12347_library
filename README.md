@@ -1,2 +1,31 @@
 # p12347_library
-p12347 Sensor for library
+p12347_library - Library for sensor p12347.
+Created by Dongyang Liao, January 26, 2018.
+
+I2C communiation
+  
+Declaration (Arduino)
+ p12347 XXXX
+
+Usage
+  XXXX.p12347_sensor_init();
+	uint16_t redval = XXXX.readred();
+	//LED
+	XXXX.makegreen();
+	...
+
+  p12347_sensor_init() ... Initial the Sensor register;
+  readred()... Read the red value after Initialization; (Return uint16_t)
+  readgreen()...Read the green value after Initialization; (Return uint16_t)
+  readblue()...Read the blue value after Initialization; (Return uint16_t)
+  readinfrared()...Read the infrared value after Initialization; (Return uint16_t)
+
+  makegreen(uint8_t LEDintensity)...Set the LED green;
+  makeblue(uint8_t LEDintensity)...Set the LED blue;
+  makered(uint8_t LEDintensity)...Set the LED red;
+  makeLEDmisc(uint8_t LEDredin, uint8_t LEDgreenin, uint8_t LEDbluein)...Set the LED ;
+  turnoffled()...Turn off LED
+
+  Default: Fixed time mode
+
+  Refer to https://www.hamamatsu.com/resources/pdf/ssd/p12347-01ct_kpic1084e.pdf
