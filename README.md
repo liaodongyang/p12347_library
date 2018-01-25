@@ -16,17 +16,17 @@ Created by Dongyang Liao, January 26, 2018.
 ####	XXXX.makegreen();
 ####	...
 
-####  p12347_sensor_init() ... Initial the Sensor register;
-####  readred()... Read the red value after Initialization; (Return uint16_t)
-####  readgreen()...Read the green value after Initialization; (Return uint16_t)
-####  readblue()...Read the blue value after Initialization; (Return uint16_t)
-####  readinfrared()...Read the infrared value after Initialization; (Return uint16_t)
+*  p12347_sensor_init() ... Initial the Sensor register;
+*  readred()... Read the red value after Initialization; (Return uint16_t)
+*  readgreen()...Read the green value after Initialization; (Return uint16_t)
+*  readblue()...Read the blue value after Initialization; (Return uint16_t)
+*  readinfrared()...Read the infrared value after Initialization; (Return uint16_t)
 
-####  makegreen(uint8_t LEDintensity)...Set the LED green;
-####  makeblue(uint8_t LEDintensity)...Set the LED blue;
-####  makered(uint8_t LEDintensity)...Set the LED red;
-####  makeLEDmisc(uint8_t LEDredin, uint8_t LEDgreenin, uint8_t LEDbluein)...Set the LED ;
-####  turnoffled()...Turn off LED
+*  makegreen(uint8_t LEDintensity)...Set the LED green;
+*  makeblue(uint8_t LEDintensity)...Set the LED blue;
+*  makered(uint8_t LEDintensity)...Set the LED red;
+*  makeLEDmisc(uint8_t LEDredin, uint8_t LEDgreenin, uint8_t LEDbluein)...Set the LED ;
+*  turnoffled()...Turn off LED
 
 ####  Default: Fixed time mode
 
