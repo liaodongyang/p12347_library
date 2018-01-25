@@ -2,6 +2,7 @@
 *p12347_library - Library for sensor p12347.
 Created by Dongyang Liao, January 26, 2018.
 
+![Alt text](https://www.hamamatsu.com/blobs/1328779685689?blobheadername1=content-disposition&blobheadervalue1=inline%3Bfilename%3D1328482657394.jpg&ssbinary=true)
 #### I2C communiation
   
 ###Declaration (Arduino)
