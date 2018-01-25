@@ -3,6 +3,9 @@
 *Created by Dongyang Liao, January 26, 2018.*
 
 ![Alt text](https://www.hamamatsu.com/blobs/1328779685689?blobheadername1=content-disposition&blobheadervalue1=inline%3Bfilename%3D1328482657394.jpg&ssbinary=true)
+
+This is a nultifunctional sensor that incorporates a color sensor, proximity sensor, and 3-color LED in a small package
+
 ### I2C communiation
   
 ### Declaration (Arduino)
