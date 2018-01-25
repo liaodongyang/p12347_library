@@ -12,8 +12,7 @@
 ### Usage
 *   XXXX.p12347_sensor_init();
 *   uint16_t redval = XXXX.readred();
-*  	//LED
-*  	XXXX.makegreen();
+*  	XXXX.makegreen(); //LED
 *  	...
 
 ### Function introduction
