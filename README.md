@@ -3,20 +3,20 @@
 *Created by Dongyang Liao, January 26, 2018.*
 
 ![Alt text](https://www.hamamatsu.com/blobs/1328779685689?blobheadername1=content-disposition&blobheadervalue1=inline%3Bfilename%3D1328482657394.jpg&ssbinary=true)
-#### I2C communiation
+### I2C communiation
   
-###Declaration (Arduino)
-*
-#####p12347 XXXX
+### Declaration (Arduino)
 
-###Usage
+###### &nbsp;&nbsp;&nbsp;&nbsp;   p12347 XXXX
+
+### Usage
 *   XXXX.p12347_sensor_init();
 *   uint16_t redval = XXXX.readred();
 *  	//LED
 *  	XXXX.makegreen();
 *  	...
 
-###Function introduction
+### Function introduction
 *  p12347_sensor_init() ... Initial the Sensor register;
 *  readred()... Read the red value after Initialization; (Return uint16_t)
 *  readgreen()...Read the green value after Initialization; (Return uint16_t)
