@@ -38,4 +38,4 @@ Issue: Something weird in datasheet, about the control current
 > Refer to datasheet https://www.hamamatsu.com/resources/pdf/ssd/p12347-01ct_kpic1084e.pdf
 
 
-2018/08/02 Excmples correction (Thanks for reminding to @per1234)
+2018/08/02 Excmples correction 
