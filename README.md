@@ -2,7 +2,7 @@
 *p12347_library - Library for sensor p12347.*
 *Created by Dongyang Liao, January 26, 2018.*
 
-![Alt text](https://www.hamamatsu.com/blobs/1328779685689?blobheadername1=content-disposition&blobheadervalue1=inline%3Bfilename%3D1328482657394.jpg&ssbinary=true)
+![Alt text](https://www.azosensors.com/images/equipments/EquipmentImage_1465.jpg)
 
 This is a nultifunctional sensor that incorporates a color sensor, proximity sensor, and 3-color LED in a small package
 
@@ -31,6 +31,11 @@ This is a nultifunctional sensor that incorporates a color sensor, proximity sen
 *  makeLEDmisc(uint8_t LEDredin, uint8_t LEDgreenin, uint8_t LEDbluein)...Set the LED ;
 *  turnoffled()...Turn off LED
 
-####  Default: Fixed time mode
+####  About the desciption 
+Default: safe mode 
+Fixed time mode (No enough)
+Issue: Something weird in datasheet, about the control current
+> Refer to datasheet https://www.hamamatsu.com/resources/pdf/ssd/p12347-01ct_kpic1084e.pdf
 
-> Refer to https://www.hamamatsu.com/resources/pdf/ssd/p12347-01ct_kpic1084e.pdf
+
+2018/08/02 Excmples correction (Thanks for reminding to @per1234)
