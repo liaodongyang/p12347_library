@@ -9,7 +9,7 @@ void setup() {
   delay(4000);
   Serial.begin(74880);
   //Set the LED (red,green,blue)
-  p12347test.makeLEDmisc(0x0,0x2,0x2);
+  //p12347test.makeLEDmisc(0x0,0x2,0x2);
   delay(5000);
   
 }
@@ -39,7 +39,7 @@ void loop() {
   Serial.print(infdata);
   Serial.println(" lx");
 
-  p12347test.turnoffled();
+  //p12347test.turnoffled();
   
   delay(2000);
 }
